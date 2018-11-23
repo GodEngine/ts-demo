@@ -1,0 +1,1 @@
+export default (str: string) => str.replace(/(^[\s\n]*)|([\s\n]*$)/g, '')
